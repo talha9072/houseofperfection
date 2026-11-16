@@ -10023,3 +10023,60 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
 .hop-legal li {
 	margin-bottom: 6px;
 }
+
+/* House of Perfection: page copy blocks (Nov 2026) */
+.hop-copy {
+	background: #fff;
+}
+
+.hop-copy-inner {
+	max-width: 820px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+.hop-copy h2 {
+	margin-bottom: 18px;
+	color: #1C513E;
+	font-size: 34px;
+}
+
+.hop-copy h3 {
+	margin: 28px 0 10px;
+	color: #1C513E;
+	font-size: 22px;
+}
+
+.hop-copy p,
+.hop-copy li {
+	color: #4d5a55;
+	font-size: 17px;
+	line-height: 1.7;
+}
+
+.hop-copy ul {
+	margin: 0 0 16px;
+	padding-left: 20px;
+	list-style: disc;
+}
+
+.hop-copy li {
+	margin-bottom: 6px;
+}
+
+.hop-copy li strong {
+	color: #1C513E;
+}
+
+.hop-copy a:not(.button) {
+	color: #1C513E;
+	text-decoration: underline;
+}
+
+.hop-copy-cta {
+	margin-top: 28px;
+}
+
+.hop-copy-cta .button {
+	margin: 6px 10px 0 0;
+}
