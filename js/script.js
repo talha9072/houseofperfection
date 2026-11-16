@@ -79,8 +79,8 @@
 	}
 
 	// Initialize scripts that require a loaded window
-	$window.on('load', function () {
-		// Page loader & Page transition
+	// Page loader & Page transition: reveal the page on DOM ready (performance: no waiting for all images)
+	$(function () {
 		if (plugins.preloader.length && !isNoviBuilder) {
 			pageTransition({
 				target: document.querySelector( '.page' ),
@@ -103,6 +103,10 @@
 				}
 			});
 		}
+	});
+
+	$window.on('load', function () {
+		// (page loader now starts on DOM ready, see below)
 
 		// Counter
 		if ( plugins.counter ) {

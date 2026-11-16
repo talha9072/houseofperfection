@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /_localhost/
+
+Sitemap: https://houseofperfection.co.za/sitemap.xml

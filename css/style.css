@@ -7263,6 +7263,7 @@ html:not(.ie-11):not(.ie-10) .countdown-circle {
 
 /** @section Lightgallery */
 @font-face {
+	font-display: swap;
 	font-family: 'lg';
 	src: url("../fonts/lg.eot?n1z373");
 	src: url("../fonts/lg.eot?#iefixn1z373") format("embedded-opentype"), url("../fonts/lg.woff?n1z373") format("woff"), url("../fonts/lg.ttf?n1z373") format("truetype"), url("../fonts/lg.svg?n1z373#lg") format("svg");
@@ -9933,4 +9934,92 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
 	cursor: default;
 	display: block;
 	padding: 6px;
+}
+
+/** @section House of Perfection: price links (Nov 2026 update) */
+.hop-price-cta {
+	max-width: 560px;
+	margin: 10px auto 24px;
+	padding: 22px 24px;
+	border-radius: 18px;
+	background: #FEEBE8;
+	border: 1px solid rgba(28, 81, 62, .12);
+	text-align: center;
+}
+
+.hop-price-cta-text {
+	margin: 0 0 14px;
+	color: #2c343b;
+}
+
+.hop-price-cta-text strong {
+	color: #1C513E;
+}
+
+.hop-price-cta .button {
+	margin-top: 0;
+}
+
+.hop-price-cta-note {
+	margin: 12px 0 0;
+	font-size: 14px;
+	color: #6c7a74;
+}
+
+.hop-price-cta-note a {
+	color: #1C513E;
+	text-decoration: underline;
+}
+
+.hop-price-link {
+	display: inline-block;
+	margin-top: 6px;
+	color: #b87374;
+	font-weight: 600;
+	letter-spacing: .02em;
+}
+
+.hop-price-link:hover {
+	color: #1C513E;
+}
+
+.hop-menu-list {
+	max-width: 620px;
+	margin: 18px auto 22px;
+	padding: 0;
+	list-style: none;
+	text-align: left;
+}
+
+.hop-menu-list li {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	gap: 4px 16px;
+	padding: 12px 4px;
+	border-bottom: 1px dashed rgba(28, 81, 62, .18);
+}
+
+.hop-menu-name {
+	color: #1C513E;
+	font-weight: 500;
+}
+
+.hop-menu-tag {
+	color: #6c7a74;
+	font-size: 14px;
+}
+
+.hop-legal h2 {
+	margin-top: 32px;
+	color: #1C513E;
+}
+
+.hop-legal ul {
+	padding-left: 20px;
+	list-style: disc;
+}
+
+.hop-legal li {
+	margin-bottom: 6px;
 }
